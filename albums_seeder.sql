@@ -1,7 +1,9 @@
 USE codeup_test_db;
-#     INSERT INTO albums (id, artist, name, release_date, sales, genre)
-#     VALUES (1, 'Michael Jackson', 'Thriller', 1982, 47.3, 'pop, rock, R&B');
-#     DELETE FROM albums WHERE id = 2;
+# TRUNCATE albums;
+
+    INSERT INTO albums (id, artist, name, release_date, sales, genre)
+    VALUES (1, 'Michael Jackson', 'Thriller', 1982, 47.3, 'pop, rock, R&B');
+    DELETE FROM albums WHERE id = 2;
     INSERT INTO albums (id, artist, name, release_date, sales, genre)
     VALUES(2,'AC/DC', 'Back in Black', 1980, 26.1, 'Hard rock'),
           (3, 'Pinkfloyd', 'The dark side of the moon', 1973, 24.3, 'Progressive rock'),
